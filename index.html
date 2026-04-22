@@ -65,14 +65,27 @@
       </button>
       <div class="collapse navbar-collapse" id="navMenuHome">
         <ul class="navbar-nav ms-auto align-items-center custom-nav-ul">
-          <li class="nav-item"><a class="nav-link nav-link-active" href="/">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="/sobre">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link" href="/servicos">Serviços</a></li>
-          <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="/contatos">Contatos</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownBlog">
+              <li><a class="dropdown-item" href="analise-do-comportamento.html">Análise do Comportamento</a></li>
+              <li><a class="dropdown-item" href="relacionamentos-toxicos-ciclo-de-violencia.html">Relacionamentos
+                  Tóxicos</a></li>
+              <li><a class="dropdown-item" href="autoestima-como-fortalecer.html">Autoestima</a></li>
+              <li><a class="dropdown-item" href="inteligencia-emocional-como-desenvolver.html">Inteligência
+                  Emocional</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contatos.html">Contatos</a></li>
           <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
             <a class="btn custom-nav-btn" id="nav-cta-btn" href="https://wa.me/5524988210432" target="_blank"
-              rel="noopener noreferrer">Agendar Consulta</a>
+              rel="noopener noreferrer">Agendar Sessão</a>
           </li>
         </ul>
       </div>
@@ -108,7 +121,7 @@
         <div class="hero-buttons" id="hero-buttons">
           <a href="https://wa.me/5524988210432" class="btn-hero-primary" id="btn-agendar" target="_blank"
             rel="noopener noreferrer">Agendar Agora</a>
-          <a href="/servicos" class="btn-hero-outline" id="btn-como-ajudar">Como Posso Ajudar</a>
+          <a href="servicos.html" class="btn-hero-outline" id="btn-como-ajudar">Como Posso Ajudar</a>
         </div>
       </div>
     </div>
@@ -132,6 +145,7 @@
   <section class="ticker-section" aria-label="Valores e princípios">
     <div class="ticker-track" id="ticker-track">
       <div class="ticker-content" id="ticker-content">
+        <!-- Grupo 1 -->
         <span class="ticker-item">Cuidado &amp; Escuta</span>
         <span class="ticker-dot" aria-hidden="true">•</span>
         <span class="ticker-item">Acolhimento &amp; Segurança</span>
@@ -144,6 +158,17 @@
         <span class="ticker-dot" aria-hidden="true">•</span>
         <span class="ticker-item">Consciência &amp; Transformação</span>
         <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Respeito &amp; Empatia</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Autocuidado &amp; Reflexão</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Presença &amp; Vínculo</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Confiança &amp; Liberdade</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Entendimento &amp; Ação</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+
         <!-- Duplicado para loop infinito suave -->
         <span class="ticker-item">Cuidado &amp; Escuta</span>
         <span class="ticker-dot" aria-hidden="true">•</span>
@@ -157,6 +182,16 @@
         <span class="ticker-dot" aria-hidden="true">•</span>
         <span class="ticker-item">Consciência &amp; Transformação</span>
         <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Respeito &amp; Empatia</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Autocuidado &amp; Reflexão</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Presença &amp; Vínculo</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Confiança &amp; Liberdade</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
+        <span class="ticker-item">Entendimento &amp; Ação</span>
+        <span class="ticker-dot" aria-hidden="true">•</span>
       </div>
     </div>
   </section>
@@ -168,31 +203,31 @@
     <div class="reconhece-bg-overlay"></div>
 
     <div class="reconhece-inner">
-      <h2 class="reconhece-title">Você se reconhece em alguma<br>dessas situações?</h2>
+      <h2 class="reconhece-title animate-on-scroll">Você se reconhece em alguma<br>dessas situações?</h2>
 
       <div class="reconhece-cards">
 
-        <div class="reconhece-card">
+        <div class="reconhece-card animate-on-scroll delay-1">
           <span class="reconhece-check">✓</span>
           <p>Você se sente presa em uma relação que te faz sofrer, mas não consegue sair?</p>
         </div>
 
-        <div class="reconhece-card">
+        <div class="reconhece-card animate-on-scroll delay-2">
           <span class="reconhece-check">✓</span>
           <p>Sente que depende emocionalmente de alguém, mesmo quando isso te machuca?</p>
         </div>
 
-        <div class="reconhece-card">
+        <div class="reconhece-card animate-on-scroll delay-3">
           <span class="reconhece-check">✓</span>
           <p>Já passou por situações de violência psicológica ou abuso emocional e ainda carrega isso?</p>
         </div>
 
-        <div class="reconhece-card">
+        <div class="reconhece-card animate-on-scroll delay-4">
           <span class="reconhece-check">✓</span>
           <p>Vive com culpa constante, confusão emocional ou medo de tomar decisões?</p>
         </div>
 
-        <div class="reconhece-card">
+        <div class="reconhece-card animate-on-scroll delay-5">
           <span class="reconhece-check">✓</span>
           <p>Tem dificuldade de se posicionar, dizer não ou colocar seus limites?</p>
         </div>
@@ -216,13 +251,13 @@
     </div>
 
     <div class="para-quem-content">
-      <h2 class="para-quem-title">Para quem é a psicoterapia?</h2>
-      <p class="para-quem-desc">
+      <h2 class="para-quem-title animate-on-scroll">Para quem é a psicoterapia?</h2>
+      <p class="para-quem-desc animate-on-scroll delay-1">
         Meu atendimento é voltado para mulheres que vivem ou viveram em situações emocionalmente desgastantes. Se você
         se identifica com algum dos contextos abaixo, a terapia pode ser um espaço importante para você:
       </p>
 
-      <ul class="para-quem-list">
+      <ul class="para-quem-list animate-on-scroll delay-2">
         <li>
           <div class="para-quem-icon"><img src="img/cerebro.svg" alt="" aria-hidden="true"></div>
           <span>Dependência emocional em relacionamentos</span>
@@ -257,10 +292,10 @@
         </li>
       </ul>
 
-      <div class="para-quem-buttons">
+      <div class="para-quem-buttons animate-on-scroll delay-3">
         <a href="https://wa.me/5524988210432" class="btn-hero-primary" target="_blank" rel="noopener noreferrer">Agendar
           Agora</a>
-        <a href="/servicos" class="btn-hero-outline">Como Posso Ajudar</a>
+        <a href="servicos.html" class="btn-hero-outline">Como Posso Ajudar</a>
       </div>
     </div>
   </section>
@@ -271,7 +306,7 @@
     <div class="conheca-bg-overlay"></div>
 
     <div class="conheca-inner">
-      <div class="conheca-left">
+      <div class="conheca-left animate-on-scroll">
         <div class="conheca-photo-wrapper">
           <img src="img/sobre-rafaella-araujo.png" alt="Rafaella Araújo" class="conheca-photo">
 
@@ -289,7 +324,7 @@
         </div>
       </div>
 
-      <div class="conheca-right">
+      <div class="conheca-right animate-on-scroll delay-1">
         <h2 class="conheca-title">Conheça a psicóloga<br>Rafaella Araújo</h2>
 
         <p class="conheca-desc">
@@ -312,7 +347,7 @@
         </p>
 
         <div class="conheca-buttons">
-          <a href="/sobre" class="btn-hero-outline conheca-btn">Saiba mais sobre minha trajetória &rarr;</a>
+          <a href="sobre.html" class="btn-hero-outline conheca-btn">Saiba mais sobre minha trajetória &rarr;</a>
         </div>
       </div>
     </div>
@@ -324,14 +359,14 @@
   <!-- ── SEÇÃO: MODALIDADES DE ATENDIMENTO ── -->
   <section class="modalidades-section" aria-label="Modalidades de atendimento">
     <div class="modalidades-inner">
-      <div class="modalidades-header">
+      <div class="modalidades-header animate-on-scroll">
         <h2 class="modalidades-title">Modalidades de atendimento</h2>
         <p class="modalidades-subtitle">Atendimento pensado para você</p>
       </div>
 
       <div class="modalidades-cards">
         <!-- Card 1: Online -->
-        <div class="mod-card">
+        <div class="mod-card animate-on-scroll delay-1">
           <div class="mod-card-img-wrapper">
             <img src="img/rafaella-araujo-psicologa-online.jpg" alt="Atendimento Online">
           </div>
@@ -347,7 +382,7 @@
         </div>
 
         <!-- Card 2: Presencial -->
-        <div class="mod-card">
+        <div class="mod-card animate-on-scroll delay-2">
           <div class="mod-card-img-wrapper">
             <img src="img/quem-e-rafaella-araujo.png" alt="Atendimento Presencial">
           </div>
@@ -372,7 +407,8 @@
         <div class="depo-header-text">
           <span class="depo-subtitle">DEPOIMENTOS</span>
           <h2 class="depo-title">O que meus pacientes dizem?</h2>
-          <p class="depo-desc">Veja como através das consultas consegui impactar a<br><strong>vida dos meus pacientes.</strong></p>
+          <p class="depo-desc">Veja como através das consultas consegui impactar a<br><strong>vida dos meus
+              pacientes.</strong></p>
         </div>
         <div class="depo-nav">
           <button class="depo-btn" id="depo-prev" aria-label="Anterior">&lt;</button>
@@ -384,7 +420,10 @@
         <!-- Card 1: Letícia -->
         <div class="depo-card">
           <p class="depo-text">
-            Excelente psicóloga! Muito atenciosa, empática e qualificada. <strong>É uma profissional extremamente humana e acolhedora.</strong> Com uma enorme profissionalismo e uma habilidade notável em conduzir as pessoas de forma reflexiva, com orientações claras e escuta atenta. <strong>Recomendo muito seu trabalho a quem busca uma psicóloga competente e ética.</strong>
+            Excelente psicóloga! Muito atenciosa, empática e qualificada. <strong>É uma profissional extremamente humana
+              e acolhedora.</strong> Com uma enorme profissionalismo e uma habilidade notável em conduzir as pessoas de
+            forma reflexiva, com orientações claras e escuta atenta. <strong>Recomendo muito seu trabalho a quem busca
+              uma psicóloga competente e ética.</strong>
           </p>
           <div class="depo-author">
             <img src="img/foto-leticia.png" alt="Leticia Rodrigues" class="depo-author-img">
@@ -404,7 +443,9 @@
         <!-- Card 2: Juliete -->
         <div class="depo-card">
           <p class="depo-text">
-            A Rafaella é mais que uma psicóloga, ela é uma experiência rs, com pouco tempo de atendimento os direcionamentos dela me trouxeram de volta, a maneira como <strong>ela conduz a sessão e especial demais e eu colho os frutos até hoje.</strong>
+            A Rafaella é mais que uma psicóloga, ela é uma experiência rs, com pouco tempo de atendimento os
+            direcionamentos dela me trouxeram de volta, a maneira como <strong>ela conduz a sessão e especial demais e
+              eu colho os frutos até hoje.</strong>
           </p>
           <div class="depo-author">
             <img src="img/foto-juliete.png" alt="Juliete Oliveira" class="depo-author-img">
@@ -424,8 +465,11 @@
         <!-- Card 3: Desirré -->
         <div class="depo-card">
           <p class="depo-text">
-            Rafaella é uma excelente psicóloga, nunca encontrei alguém como ela. <strong>Comprometida e acolhedora</strong> sempre me auxiliou durante todo o processo da terapia fazendo com que tudo fluísse de forma muito natural.<br>
-            <strong>Recomendo sempre para quem deseja uma profissional fora da curva e qualidade ímpar</strong> em atendimentos completos e resolutivos.
+            Rafaella é uma excelente psicóloga, nunca encontrei alguém como ela. <strong>Comprometida e
+              acolhedora</strong> sempre me auxiliou durante todo o processo da terapia fazendo com que tudo fluísse de
+            forma muito natural.<br>
+            <strong>Recomendo sempre para quem deseja uma profissional fora da curva e qualidade ímpar</strong> em
+            atendimentos completos e resolutivos.
           </p>
           <div class="depo-author">
             <img src="img/foto-desirre.png" alt="Desirré Mathias" class="depo-author-img">
@@ -445,12 +489,116 @@
         <!-- Card 4: Maria A (Sem foto) -->
         <div class="depo-card">
           <p class="depo-text">
-            A psicóloga Rafaella é uma profissional de muita dedicação, esforçada para com as atualizações da área, sempre engajada com afinco próprio a profissão que possui a responsabilidade condizente ao propósito da ação...
+            A psicóloga Rafaella é uma <strong>profissional de muita dedicação, esforço, antenada com as atualizações de
+              sua área</strong>, sempre estudiosa com o afinco próprio de pessoas que possui a responsabilidade
+            condigente ao profundo
+            mister da ação que abraçou!
           </p>
           <div class="depo-author">
             <div class="depo-author-circle">M</div>
             <div class="depo-author-info">
-              <span class="depo-author-name">Maria A</span>
+              <span class="depo-author-name">Maria Aparecida</span>
+              <div class="depo-stars">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Amanda -->
+        <div class="depo-card">
+          <p class="depo-text">
+            <strong>Excelente profissional!</strong> Iniciei o atendimento com a Rafaella por indicação de outra profissional.<br>
+            Ela é <strong>acolhedora, faz ponderações muito assertivas</strong> que me ajudaram muito em processo de trabalho bem desgastante.
+          </p>
+          <div class="depo-author">
+            <img src="img/amanda.png" alt="Amanda" class="depo-author-img">
+            <div class="depo-author-info">
+              <span class="depo-author-name">Amanda</span>
+              <div class="depo-stars">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Jéssica Ferreira -->
+        <div class="depo-card">
+          <p class="depo-text">
+            A Rafa é <strong>incrível</strong>, a indico para todo mundo. Graças a minha terapia com ela, <strong>consegui controlar minha ansiedade</strong>. Muito humana, empática, me deixa a vontade para me abrir. <strong>A melhor que eu poderia ter escolhido 💖</strong>
+          </p>
+          <div class="depo-author">
+            <div class="depo-author-circle">J</div>
+            <div class="depo-author-info">
+              <span class="depo-author-name">Jéssica Ferreira</span>
+              <div class="depo-stars">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7: Livia de Marca -->
+        <div class="depo-card">
+          <p class="depo-text">
+            Faço acompanhamento com essa profissional e ela tem me ajudado a <strong>me tornar um ser humano melhor, mais confiante e decidida</strong> sobre as minhas questões internas. Simplesmente ela <strong>faz a diferença em minha vida</strong>
+          </p>
+          <div class="depo-author">
+            <div class="depo-author-circle">L</div>
+            <div class="depo-author-info">
+              <span class="depo-author-name">Livia de Marca</span>
+              <div class="depo-stars">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8: Leticia Moura -->
+        <div class="depo-card">
+          <p class="depo-text">
+            A Rafa é uma <strong>profissional sensacional</strong>. Em apenas 4 meses de tratamento com ela já pude notar uma <strong>melhora significativa na minha qualidade de vida e bem estar</strong>. Psicóloga extremamente capacitada!!
+          </p>
+          <div class="depo-author">
+            <div class="depo-author-circle">L</div>
+            <div class="depo-author-info">
+              <span class="depo-author-name">Leticia Moura</span>
+              <div class="depo-stars">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+                <img src="img/estrela2.svg" alt="" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9: Márcia Afonso -->
+        <div class="depo-card">
+          <p class="depo-text">
+            Tenho acompanhado o trabalho da Rafaella, aproximadamente 04 anos, <strong>excelente profissional, dedicada e comprometida</strong> com os pacientes.
+          </p>
+          <div class="depo-author">
+            <div class="depo-author-circle">M</div>
+            <div class="depo-author-info">
+              <span class="depo-author-name">Márcia Afonso</span>
               <div class="depo-stars">
                 <img src="img/estrela2.svg" alt="" aria-hidden="true">
                 <img src="img/estrela2.svg" alt="" aria-hidden="true">
@@ -483,9 +631,11 @@
           <div class="blog-card-content">
             <h3 class="blog-card-title">Análise do<br>Comportamento:</h3>
             <p class="blog-card-desc">
-              Você já se perguntou por que repete certos padrões na sua vida, mesmo quando percebe que eles não te fazem bem? Por que é tão difícil largar um hábito ruim reagir de forma diferente numa situação...
+              Você já se perguntou por que repete certos padrões na sua vida, mesmo quando percebe que eles não te fazem
+              bem? Por que é tão difícil largar um hábito ruim reagir de forma diferente numa situação...
             </p>
-            <a href="analise-do-comportamento.html" class="blog-btn" target="_blank" rel="noopener noreferrer">LER MAIS</a>
+            <a href="analise-do-comportamento.html" class="blog-btn" target="_blank" rel="noopener noreferrer">LER
+              MAIS</a>
           </div>
         </div>
 
@@ -497,9 +647,12 @@
           <div class="blog-card-content">
             <h3 class="blog-card-title">Relacionamentos<br>Tóxicos</h3>
             <p class="blog-card-desc">
-              Amar e ser amado é uma necessidade humana profunda. Mas nem todo relacionamento que sentimos como amor é, de fato, saudável. Muitas pessoas convivem diariamente com situações de manipulação, controle, humilhação...
+              Amar e ser amado é uma necessidade humana profunda. Mas nem todo relacionamento que sentimos como amor é,
+              de fato, saudável. Muitas pessoas convivem diariamente com situações de manipulação, controle,
+              humilhação...
             </p>
-            <a href="relacionamentos-toxicos-ciclo-de-violencia.html" class="blog-btn" target="_blank" rel="noopener noreferrer">LER MAIS</a>
+            <a href="relacionamentos-toxicos-ciclo-de-violencia.html" class="blog-btn" target="_blank"
+              rel="noopener noreferrer">LER MAIS</a>
           </div>
         </div>
 
@@ -511,9 +664,12 @@
           <div class="blog-card-content">
             <h3 class="blog-card-title">Autoestima</h3>
             <p class="blog-card-desc">
-              Pense por um momento em como você se fala. Quando comete um erro, qual é a voz que surge dentro de você? Ela é compassiva, como seria com um bom amigo ou é severa, crítica e implacável? A forma como nos relacionamos...
+              Pense por um momento em como você se fala. Quando comete um erro, qual é a voz que surge dentro de você?
+              Ela é compassiva, como seria com um bom amigo ou é severa, crítica e implacável? A forma como nos
+              relacionamos...
             </p>
-            <a href="autoestima-como-fortalecer.html" class="blog-btn" target="_blank" rel="noopener noreferrer">LER MAIS</a>
+            <a href="autoestima-como-fortalecer.html" class="blog-btn" target="_blank" rel="noopener noreferrer">LER
+              MAIS</a>
           </div>
         </div>
 
@@ -525,9 +681,11 @@
           <div class="blog-card-content">
             <h3 class="blog-card-title">Inteligência<br>Emocional</h3>
             <p class="blog-card-desc">
-              Você provavelmente conhece alguém que, diante de situações de pressão, conflito ou frustração, mantém a calma, pensa com clareza e age de forma equilibrada. E talvez também conheça...
+              Você provavelmente conhece alguém que, diante de situações de pressão, conflito ou frustração, mantém a
+              calma, pensa com clareza e age de forma equilibrada. E talvez também conheça...
             </p>
-            <a href="inteligencia-emocional-como-desenvolver.html" class="blog-btn" target="_blank" rel="noopener noreferrer">LER MAIS</a>
+            <a href="inteligencia-emocional-como-desenvolver.html" class="blog-btn" target="_blank"
+              rel="noopener noreferrer">LER MAIS</a>
           </div>
         </div>
       </div>
@@ -538,15 +696,17 @@
   <section class="agendar-section" aria-label="Agendar Sessão">
     <div class="agendar-bg-image"></div>
     <div class="agendar-bg-overlay"></div>
-    
+
     <div class="agendar-inner">
       <span class="agendar-subtitle">AGENDAR SESSÃO</span>
       <h2 class="agendar-title">Você não precisa ter todas<br>as respostas agora</h2>
       <p class="agendar-desc">
-        Muitas vezes, o primeiro passo é o mais difícil. Mas <strong>você não precisa estar com tudo resolvido para começar</strong>, você precisa apenas querer entender melhor o que está vivendo.<br>
+        Muitas vezes, o primeiro passo é o mais difícil. Mas <strong>você não precisa estar com tudo resolvido para
+          começar</strong>, você precisa apenas querer entender melhor o que está vivendo.<br>
         Se você chegou até aqui, <strong>talvez já seja a hora de dar esse passo.</strong>
       </p>
-      <a href="https://wa.me/5524988210432" class="btn-hero-primary agendar-btn" target="_blank" rel="noopener noreferrer">Agendar Agora</a>
+      <a href="https://wa.me/5524988210432" class="btn-hero-primary agendar-btn" target="_blank"
+        rel="noopener noreferrer">Agendar Agora</a>
     </div>
   </section>
 
@@ -560,11 +720,10 @@
       <div class="footer-col footer-col-2">
         <h4>Navegação</h4>
         <nav>
-          <a href="/">Inicio</a>
-          <a href="/sobre">Sobre</a>
-          <a href="/servicos">Serviços</a>
-          <a href="/blog">Blog</a>
-          <a href="/contatos">Contatos</a>
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="contatos.html">Contatos</a>
           <a href="https://wa.me/5524988210432" target="_blank" rel="noopener noreferrer">Agendamento</a>
         </nav>
       </div>
@@ -577,7 +736,8 @@
     </div>
     <div class="footer-bottom">
       <p>© 2026 - Todos os direitos reservados.</p>
-      <p>Desenvolvido por <strong>Pamella Freitas</strong></p>
+      <p>Desenvolvido por <a href="https://www.pamellafreitas.com.br/" target="_blank"
+          style="color: inherit; text-decoration: none;"><strong>Pamella Freitas</strong></a></p>
     </div>
   </footer>
 
@@ -586,6 +746,11 @@
     crossorigin="anonymous"></script>
   <script src="index.js"></script>
 
+  <!-- WhatsApp Flutuante -->
+  <a href="https://wa.me/5524988210432" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+    aria-label="Falar no WhatsApp">
+    <img src="img/whatsapp.svg" alt="WhatsApp">
+  </a>
 </body>
 
 </html>

@@ -90,4 +90,28 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  // ── Animações de Entrada ao Rolar (Scroll Animations) ──
+  const scrollElements = document.querySelectorAll('.animate-on-scroll');
+  
+  if ('IntersectionObserver' in window) {
+    const scrollObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-active');
+          scrollObserver.unobserve(entry.target); // Anima apenas uma vez
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -50px 0px', // Aciona quando o elemento estiver 50px dentro da tela
+      threshold: 0.1
+    });
+
+    scrollElements.forEach(el => scrollObserver.observe(el));
+  } else {
+    // Fallback caso o navegador não suporte IntersectionObserver
+    scrollElements.forEach(el => {
+      el.classList.add('animate-active');
+    });
+  }
+
 });

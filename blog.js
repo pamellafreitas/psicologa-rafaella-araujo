@@ -60,3 +60,29 @@ function showResult() {
 function toggleFaq(el) {
   el.parentElement.classList.toggle('open');
 }
+
+// ── Animações de Entrada ao Rolar (Scroll Animations) ──
+document.addEventListener('DOMContentLoaded', function() {
+  const scrollElements = document.querySelectorAll('.animate-on-scroll');
+  
+  if ('IntersectionObserver' in window) {
+    const scrollObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-active');
+          scrollObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -50px 0px',
+      threshold: 0.1
+    });
+
+    scrollElements.forEach(el => scrollObserver.observe(el));
+  } else {
+    scrollElements.forEach(el => {
+      el.classList.add('animate-active');
+    });
+  }
+});
+
